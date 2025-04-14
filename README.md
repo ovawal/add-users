@@ -1,7 +1,8 @@
 ### Script to add users to your local RHEL or DEBIAN system
 #### ***This script does the following:***
 - Sudo validation
-- Checks and installs dependcies
+- Checks and installs dependencies
+- Creates user
 - Creates the password
 - Enforces password change after first log in
 - Displays the user information i.e username & password
