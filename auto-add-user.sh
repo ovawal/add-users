@@ -16,14 +16,14 @@ fi
 echo -e "\nCreating user ${1}, please be patient....."
 
 # Check if command expect is installed
-if ! command -v expect &>/dev/null ; then
-    if command -v yum ; then
+if ! command -v expect &>/dev/null; then
+    if command -v yum &>/dev/null; then
         yum install expect -y &>/dev/null
         if [[ $? -ne 0 ]]; then
         echo "Failed to install expect. Install it manually."
         exit 1
         fi
-    elif command -v apt -y &>/dev/null; then
+    elif command -v apt  &>/dev/null; then
             apt install expect -y &>/dev/null
             if [[ $? -ne 0 ]]; then
             echo "Failed to install expect. Install it manually."
