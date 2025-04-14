@@ -1,4 +1,4 @@
-### Script to add users to your local RHEL or DEBIAN system
+### Script to automatically add users to your local RHEL or DEBIAN system
 #### ***This script does the following:***
 - Sudo validation
 - Checks and installs dependencies
