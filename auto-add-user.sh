@@ -17,7 +17,7 @@ fi
 # The first parameter is the user name
 USER_NAME="${1}"
 
-# The rest of the parameters is the user name
+# The rest of the parameters are comments 
 shift
 COMMENT="${@}"
 # Begging of script message
